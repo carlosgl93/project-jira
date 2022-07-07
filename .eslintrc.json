@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals", "auto"],
+  "scripts": {
+    "eslint": "eslint --color --ext .html,.js,.json,.jsx,.md,.ts,.tsx *.* src",
+    "eslint:fix": "npm run eslint -- --fix"
+  }
+}
